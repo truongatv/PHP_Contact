@@ -1,0 +1,10 @@
+input:invalid{
+    content: 'not done';
+    color: #f00;
+    padding-left: 5px;
+}
+input:valid + span:after {
+    content: 'done';
+    color: #26b72b;
+    padding-left: 5px;
+}
