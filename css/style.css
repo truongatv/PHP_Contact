@@ -8,3 +8,24 @@ input:valid + span:after {
     color: #26b72b;
     padding-left: 5px;
 }
+
+.form{
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px;
+}
+
+.content_index {
+    align-content: center;
+    width: 30%;
+    margin: 10px;
+}
+
+input, textarea{
+    border: 1px solid black;
+    border-radius: 4px;
+}
+
+.confirm{
+    margin-bottom: 20px;
+}
